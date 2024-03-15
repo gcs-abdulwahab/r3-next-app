@@ -3,7 +3,7 @@ import serverAction from "@/app/actions/form";
 const FormNew = () => {
 	return (
 		<>
-			<form
+			<form	
 				
 				action={(e)=>serverAction(e)}
 				className="flex flex-col items-center justify-between p-24"
